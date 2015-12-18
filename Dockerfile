@@ -24,5 +24,7 @@ COPY . /src
 RUN cd /src; npm install
 
 EXPOSE 8080
+EXPOSE 3030
+EXPOSE 80
 
 CMD cd /src && node ./server.js
